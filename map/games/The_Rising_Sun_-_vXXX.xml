@@ -4694,6 +4694,7 @@ example: <option name="excludedUnits" value="submarine:fighter:bomber:air_transp
       <unitPlacement unitType="Armour" territory="Calcutta" quantity="1" owner="British"/>
       <unitPlacement unitType="Fighter" territory="Calcutta" quantity="1" owner="British"/>
       <unitPlacement unitType="Factory" territory="Calcutta" quantity="8" owner="British"/>
+      <unitPlacement unitType="Vehicle" territory="Calcutta" quantity="1" owner="British"/>
       <unitPlacement unitType="Shipyard" territory="Calcutta" quantity="1" owner="British"/>
       <unitPlacement unitType="Recruit" territory="Calcutta" quantity="8" owner="British"/>
       <unitPlacement unitType="AAGun" territory="Calcutta" quantity="1" owner="British"/>
