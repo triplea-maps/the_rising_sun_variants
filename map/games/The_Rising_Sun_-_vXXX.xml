@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?> 
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="The Rising Sun - vXXX" version="1.0.0"/>
+  <info name="The Rising Sun - vXXX" version="1.0.1"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <triplea minimumVersion="1.9"/>
   <diceSides value="6"/>
@@ -3325,6 +3325,7 @@ must be a list of the player's names receiving units, in a ":" delimited list.  
       <option name="production" value="4"/>
       <option name="capital" value="Chinese"/>
       <option name="territoryEffect" value="Urban"/>
+      <option name="changeUnitOwners" value="Chinese"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Ming Jong" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -3351,6 +3352,7 @@ must be a list of the player's names receiving units, in a ":" delimited list.  
       <option name="production" value="6"/>
       <option name="capital" value="Chinese"/>
       <option name="territoryEffect" value="Urban"/>
+      <option name="changeUnitOwners" value="Chinese"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Gansu" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -3586,6 +3588,7 @@ must be a list of the player's names receiving units, in a ":" delimited list.  
     </attachment>
     <attachment name="territoryAttachment" attachTo="Vancouver" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
+      <option name="capital" value="British"/>
       <option name="territoryEffect" value="Urban"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="N.Canada" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -3817,6 +3820,7 @@ must be a list of the player's names receiving units, in a ":" delimited list.  
     </attachment>
     <attachment name="territoryAttachment" attachTo="Kaask" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="6"/>
+      <option name="changeUnitOwners" value="Russians"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Angarsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -3857,6 +3861,7 @@ must be a list of the player's names receiving units, in a ":" delimited list.  
     <attachment name="territoryAttachment" attachTo="Achinsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
       <option name="capital" value="Russians"/>
+      <option name="changeUnitOwners" value="Russians"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Maltan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="1"/>
@@ -5538,7 +5543,7 @@ example: <option name="excludedUnits" value="submarine:fighter:bomber:air_transp
 <br>Updates are available at:
 <br>https://github.com/triplea-maps/...
 <br>and tripleamaps and client map download.
-<br>Last update: 2018-05-26, v1.0.0
+<br>Last update: 2019-05-01, v1.0.1
 <br>Game engine 1.9.0.0 required.
 <br>
 <h2>========== KNOWN ENGINE PROBLEMS ==========
